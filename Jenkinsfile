@@ -100,7 +100,7 @@ pipeline {
                             docker run -d \
                             --restart always \
                             --name ${CONTAINER_NAME} \
-                            -p 8080:8080 \
+                            -p 8085:8085 \
                             ${IMAGE_NAME}:latest
 
                         "
