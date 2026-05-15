@@ -23,7 +23,7 @@ pipeline {
             steps {
 
                 git branch: 'main',
-                url: 'https://github.com/Gopireddymadhava/sample-project-test.git'
+                url: 'https://github.com/Gopireddymadhava/springboot-jenkins-docker-ci-cd.git'
             }
         }
 
